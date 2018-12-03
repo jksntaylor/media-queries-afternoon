@@ -1,0 +1,118 @@
+.navbar {
+    background-color: #212529;
+    height: 8vh;
+    display: flex;
+    align-items: center; 
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 15px;
+    align-items: center;
+}
+
+.navbar-links-container {
+    display: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fed136;
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 20px;
+}
+
+.navbar button {
+    background-color: #fed136;
+    color: white;
+    border: none;
+    padding: 13px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: 'Montserrat'
+}
+
+.jumbotron {
+    background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+    background-size: cover;
+    height:490px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+}
+
+.jumbotron-text {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 80%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.jumbotron-text-top {
+    display: flex;
+    justify-content: center;
+    font-family: serif;
+    margin-bottom: 30px;
+    font-size: 26px;
+    font-style: italic;
+}
+
+.jumbotron-text-bottom {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.jumbotron-text-bottom h1 {
+    text-align: center;
+}
+
+.jumbotron-text-button {
+    font-family: 'Montserrat', serif;
+    font-weight: 700;
+    color: white;
+    background-color: #fed136;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        height: 5vh;
+    }
+
+    .jumbotron {
+        height: 834px;
+    }
+
+    .jumbotron-text-top {
+        font-size: 40px;
+    }
+
+    .jumbotron-text-bottom {
+        font-size: 72px;
+        width: 80%;
+    }
+}
